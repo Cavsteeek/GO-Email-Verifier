@@ -58,7 +58,7 @@ func checkDomain(domain string) {
 	for _,reocrd := range dmarcRecords{
 		if strings.HasPrefix(reocrd,m"v=DMARC1"){	
 			hasDMARC = true
-			dmarcRecord = record\
+			dmarcRecord = record
 			break
 		}
 	}
